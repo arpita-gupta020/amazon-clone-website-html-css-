@@ -4,7 +4,6 @@
     border: border-box;
 }
 
-
 .navbar{
     display:flex;
     justify-content: space-evenly;
@@ -332,27 +331,97 @@ p{
 }
 
 /*hero section*/
+.no-line{
+    text-decoration: none;
+}
 
-.hero-sec-background-image{
+
+.slider-window{
+    display: flex;
     height: 600px;
+    margin: 0px 10px 0px 10px;
     overflow: hidden;
-}    
+    position: relative;
+    transition: transform 0.5s ease-in-out;
+}
+
 .background-image-link-anchor{
     display: block;
-    /* width: 100%;
-    height: 100%; */
-    /* background-image: url("hero_image.jpg");
-    background-size: cover; */
-}
-
-.hero-sec-background-image img{
     width: 100%;
     height: 100%;
-    object-fit: cover;
-    /* display: block;  */
+    background-image: url(hero_image.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.arrow-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: absolute; */
+    font-size: 3rem;
+    font-weight: lighter;
+    height: 250px;
+    width: 84px;
+    z-index: 10;
+    background-color: transparent;
+    border: none;
 }
 
-/* img{
-    object-fit: cover;
-} */
+.pre{
+    position: absolute;
+    left: 10px;
+}
+.next{
+    position: absolute;
+    right: 10px;
+}
 
+.background-arrow-pre{
+    position: relative;
+    left: -32px;
+    z-index: -3;
+}
+.background-arrow-next{
+    position: relative;
+    right:-32px;
+    z-index: -3;
+}
+
+.shopping-section-blocks{
+    position: relative;
+    bottom: 349px;
+    z-index: 3;
+    padding: 0px 10px 0px 10px;
+    height: 4350.5px;
+}
+.link-banner{
+    padding: 0px 20px 0px 20px;
+    display: flex;
+    height: 40px;
+}
+.banner-msg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 14px 10px 14px;
+    font-size: 14px;
+    flex-grow: 1;
+    background-color: #f5f6f6;
+}
+.card-layout{
+    display: flex;
+    justify-content: space-evenly;
+    height: 860px;
+    padding: 20px 10px;
+}
+.common-4-blocks{
+    height: 420px;
+    flex-grow: 1;
+    padding: 0px 10px;
+}
+
+.inside-common-4-blocks{
+    height: 385px;
+    padding: 20px 0px 15px 0px;
+    background-color: white;
+}
