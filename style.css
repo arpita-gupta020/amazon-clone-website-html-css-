@@ -77,9 +77,14 @@ p{
     /* width: 651.91px; */
     height: 40px;
     margin: 0px 6px 0px 6px;
-    padding: 10px 4px 10px 3px;
+    /* padding: 10px 4px 10px 3px; */
     border-radius: 4px;
     flex-grow: 1;
+}
+
+.nav-search:focus-within{
+    border: 3.5px solid #f08804;
+    border-radius: 7px;
 }
 
 #input-search{
@@ -266,6 +271,7 @@ p{
 
 .cart-text{
     font-size: 0.85rem;
+    padding-left: 5px;
 }
 
  /*second navbar*/
@@ -295,6 +301,18 @@ p{
 .text-color{
     color: white;
     text-decoration: none;
+}
+
+.nav-xshop{
+    display: flex;
+}
+
+.nav-xshop{
+    flex-grow: 1;
+}
+.swmslot{
+    width: 18px;
+    height: 39px;
 }
 
 .nav-div{
