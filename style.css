@@ -11,6 +11,7 @@
     background-color: #131921;
     color: white;
     align-items: center;
+
 }
 
 .nav-left{
@@ -412,6 +413,8 @@ p{
 .card-layout{
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    row-gap: 20px;
     height: 860px;
     padding: 20px 10px;
 }
@@ -442,15 +445,29 @@ p{
     height: 303.70px;
 }
 
+/* for second row ....................*/
+.common-blk-cntnt-box4{
+    height: 276.400px;
+    padding: 0px 20px;
+    margin-bottom: 44px;
+}
+
 .common-blk-cntnt-top{
     margin-bottom: 8px;
     height: 151.85px;
     display: flex;
     justify-content: space-between;
 }
+/* for second row....................... */
+.common-blk-cntnt-top-box4{
+    margin-bottom: 8px;
+    height: 138.20px;
+    display: flex;
+    justify-content: space-between;
+}
 
 .cntnt{
-    height: 151.85px;
+    padding-bottom: 36px;
 }
 .image{
     display: flex;
@@ -477,20 +494,28 @@ p{
     justify-content: space-between;
 }
 
+/* for second row....................... */
+.common-blk-cntnt-bottom-box4{
+    height: 138.2px;
+    display: flex;
+    justify-content: space-between;
+}
+
 .no-line-blue{
     text-decoration: none;
+    color:blue;
 }
 .common-boxes-blue-link{
     padding: 0px  20px;
     margin-bottom: 20px;
     position: relative;
     bottom: 20px;
-
 }
 
 .blue-link-text{
     height: 16.9px;
     font-size: 0.87rem;
+    font-weight: 510;
 }
 
 .oneimg-blk-cntnt{
@@ -521,3 +546,158 @@ body{
     background-color: #eaeded;
 }
 
+/*editing the box4 for 2nd row..........*/
+
+.box4-img{
+    height: 102.2px;
+}
+
+/* editing box1 for 2nd row............ */
+
+#one-box4{
+    height: 164.5px;
+    display: block;
+    margin: 0px;
+}
+
+.oneimg-blk-cntnt-div-box1-2nd{
+    display: flex;
+    flex-wrap: wrap;
+    height: 276.40px;
+    padding: 0px 20px;
+    margin-bottom: 44px;
+}
+.oneimg-outer-div-box1-2nd{
+    height: 145px;
+}
+.oneimg-actual-box4{
+    height: 145px;
+    width: 310px;
+    object-fit: cover;
+}
+.title-2nd-bx1{
+    margin-top: 1px;
+    height: 19.5px;
+    font-size: 0.77rem;
+    font-weight: 500;
+}
+.box1-2nd-bottom-div{
+    display: flex;
+    justify-content: space-evenly;
+    flex: 1;
+    height: 99.9px;
+    margin-top: 12px;
+}
+.box1-2nd-bottom{
+    height: 94.5px;
+}
+
+.card2_3{
+    margin-left: 5.563px;
+}
+.box1-2nd-bottom-card1-anchor-div{
+    height: 75px;
+}
+
+.box1-2nd-bottom-card1-image{
+    height: 75px;
+}
+
+.bottom-images-of-bx1-2nd{
+    width: 100px;
+    object-fit: cover;
+}
+
+/* Sroll section............................ */
+
+/* .scroll-section{
+    padding: 0px 10px;
+} */
+
+.scroll-section-out-div-content{
+    height: 281.5px;
+    padding: 0px 20px;
+}
+
+.scroll-section-inside-div{
+    height: 261.50px;
+    padding: 10px 20px 10px 20px;
+    background-color: white;
+}
+.scroll-section-head{
+    height: 31.5px;
+    margin-top: 10px;
+    font-size: 13.5px;
+}
+
+.scroll-section-carousel-view-div{
+    height: 220px;
+}
+
+.scroll-section-carousel-view-list{
+    height: 210px;
+    margin-bottom: 10px;
+    padding: 0px;
+    list-style-type: none;
+    display: flex;
+}
+.item-carousel-list{
+    height: 200px;
+    padding: 5px;
+}
+.item-carousel-list-inside{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    object-fit: cover;
+}
+.item-link-carousel-anchor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item1{
+    width: 160px;
+}
+.item2{
+    width: 145px;
+}
+.item3{
+    width: 160px;
+}
+
+.item4-image-carousel{
+    width: 270px;
+    height: 149px;
+}
+.arrow-icon-cntn{
+    font-size: 1.8rem;
+}
+
+.arrow-link-anchor-scroll{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 4px;
+    width: 40px;
+    height: 100px;
+    position: relative;
+    bottom: 165px;
+}
+.prev{
+    padding-right: 5px;
+    box-shadow: 2px 2px 5px 0 rgba(37, 38, 38, 0.5);
+}
+
+.next{
+    justify-self: flex-end;
+    padding-left: 5px;
+    box-shadow: -2px 2px 5px 0px rgba(37, 38, 38, 0.5);
+    left: 3px;
+    top: -265px;
+    /* top: -30px; */
+    /* position: absolute;
+    right: 0px;
+    top:0px */
+}
