@@ -8,7 +8,7 @@
     display:flex;
     justify-content: space-evenly;
     height: 60px;
-    background-color: #0f1111;
+    background-color: #131921;
     color: white;
     align-items: center;
 }
@@ -333,6 +333,7 @@ p{
 /*hero section*/
 .no-line{
     text-decoration: none;
+    color: #0f1111;
 }
 
 
@@ -349,7 +350,7 @@ p{
     display: block;
     width: 100%;
     height: 100%;
-    background-image: url(hero_image.jpg);
+    background-image: linear-gradient(to bottom, transparent 50%, #eaeded 100%),url(hero_image.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -416,12 +417,107 @@ p{
 }
 .common-4-blocks{
     height: 420px;
-    flex-grow: 1;
+    flex: 1;
     padding: 0px 10px;
 }
 
 .inside-common-4-blocks{
+    display: flexbox;
+    flex-wrap: wrap;
     height: 385px;
     padding: 20px 0px 15px 0px;
     background-color: white;
+    /* border: 2px solid black; */
 }
+
+.common-blk-head{
+    padding: 0px 20px;
+    font-size: 13.5px;
+    margin-bottom: 10px;
+}
+
+.common-blk-cntnt{
+    padding: 0px 20px;
+    margin-bottom: 44px;
+    height: 303.70px;
+}
+
+.common-blk-cntnt-top{
+    margin-bottom: 8px;
+    height: 151.85px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cntnt{
+    height: 151.85px;
+}
+.image{
+    display: flex;
+    justify-content: center;
+}
+.image-actual{
+    width: 147.65px;
+    height: 115.85px;
+    object-fit: cover;
+}
+
+.image-title{
+    margin-top: 1px;
+    height: 36px;
+    font-size: 0.77rem;
+    font-weight: 500;
+}
+.image-title-actual{
+    height: 18px;
+}
+.common-blk-cntnt-bottom{
+    height: 151.85px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.no-line-blue{
+    text-decoration: none;
+}
+.common-boxes-blue-link{
+    padding: 0px  20px;
+    margin-bottom: 20px;
+    position: relative;
+    bottom: 20px;
+
+}
+
+.blue-link-text{
+    height: 16.9px;
+    font-size: 0.87rem;
+}
+
+.oneimg-blk-cntnt{
+    margin: 0px 20px;
+    height: 347.70px;
+    display: flex;
+    justify-content: center;
+}
+
+.oneimg-outer-div{
+    margin-bottom: 44px;
+    height: 303.70px;
+}
+.oneimg-blue-link-div{
+    height: 16.9px;
+    margin-bottom: 5px;
+    padding: 0px  20px;
+    position: relative;
+    bottom: 20px;
+
+}
+.oneimg-actual{
+    height: 303.70px;
+    width: 310px;
+    object-fit: cover;
+}
+body{
+    background-color: #eaeded;
+}
+
