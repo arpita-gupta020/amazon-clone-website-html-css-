@@ -686,18 +686,26 @@ body{
     bottom: 165px;
 }
 .prev{
+    visibility: hidden;
+    opacity: 0;
     padding-right: 5px;
     box-shadow: 2px 2px 5px 0 rgba(37, 38, 38, 0.5);
+    transition: visibility,opacity 1s ease-in-out;
 }
 
 .next{
+    visibility: hidden;
+    opacity: 0;
     justify-self: flex-end;
     padding-left: 5px;
     box-shadow: -2px 2px 5px 0px rgba(37, 38, 38, 0.5);
     left: 3px;
     top: -265px;
-    /* top: -30px; */
-    /* position: absolute;
-    right: 0px;
-    top:0px */
+    transition: visibility,opacity 1s ease-in-out;
+}
+
+.scroll-section-carousel-view-div:hover .prev,
+.scroll-section-carousel-view-div:hover .next{
+    visibility: visible;
+    opacity: 1;
 }
