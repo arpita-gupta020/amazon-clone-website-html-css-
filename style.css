@@ -369,11 +369,11 @@ p{
     border: none;
 }
 
-.pre{
+.pre-for-background{
     position: absolute;
     left: 10px;
 }
-.next{
+.next-for-background{
     position: absolute;
     right: 10px;
 }
@@ -394,7 +394,7 @@ p{
     bottom: 349px;
     z-index: 3;
     padding: 0px 10px 0px 10px;
-    height: 4350.5px;
+    /* height: 2350.5px; */
 }
 .link-banner{
     padding: 0px 20px 0px 20px;
@@ -708,4 +708,78 @@ body{
 .scroll-section-carousel-view-div:hover .next{
     visibility: visible;
     opacity: 1;
+}
+
+/* sign_in section................ */
+
+.most-outer-div-footer-signin{
+    position: relative;
+    bottom: 349px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 175.2px;
+}
+.sign-in-outer-div{
+    flex: 1;
+    height: 126.6px;
+    border-top: 1px solid #DDD;
+    border-bottom: 1px solid #DDD;
+    padding: 0px 20px;
+    /* margin-top: 41px; */
+}
+
+.sign-in-inner-div{
+    /* height: 90.6px; */
+    margin: 19px 0px 17px 0px;
+}
+.sign-in-button-contain{
+    height: 90.6px;
+    padding: 0px 20px;
+    text-align: center;
+}
+.heading-of-sign-in{
+    text-align: center;
+    padding-bottom: 4px;
+    height: 32px;
+}
+.button-span-outside{
+    display: flex;
+    justify-content: center;
+    /* width: 200.487px; */
+    height: 30px;
+    border-color: #0f1111;
+    border-width: 0.8px;
+    margin: 4px 0px;
+    /* text-align: center; */
+}
+
+.button-span-inside{
+    display: block;
+    height: 30px;
+    width: 200.487px;
+    background-color: #ffce12;
+    border-radius: 12px;
+}   
+.button-signin-link-anchor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 178.488px;
+    height: 20px;
+    padding: 5px 11px;
+}
+.sign-in-button-text{
+    font-size: 0.9rem;
+}
+.sign-in-msg-title{
+    text-align: center;
+    height: 15px;
+    font-size: 0.67rem;
+}
+
+/* footerof the page ............ */
+.navfooter-outer-most-div{
+    height: 940.8px;
 }
