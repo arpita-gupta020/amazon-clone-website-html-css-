@@ -391,10 +391,9 @@ p{
 
 .shopping-section-blocks{
     position: relative;
-    bottom: 349px;
     z-index: 3;
     padding: 0px 10px 0px 10px;
-    /* height: 2350.5px; */
+    margin-top: -349px;
 }
 .link-banner{
     padding: 0px 20px 0px 20px;
@@ -713,8 +712,6 @@ body{
 /* sign_in section................ */
 
 .most-outer-div-footer-signin{
-    position: relative;
-    bottom: 349px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -782,4 +779,274 @@ body{
 /* footerof the page ............ */
 .navfooter-outer-most-div{
     height: 940.8px;
+    background-color: #232F3E;
+}
+
+/* Back to top button ............ */
+.back-to-top-button{
+    display: block;
+    width: 100%;
+    height: 89px;
+    padding: 0px;
+    border: none;
+    background-color: #232F3E;
+}
+.back-to-top-inside-button{
+    height: 19px;
+    padding: 15px 0px;
+    margin-bottom: 40px;
+    color: white;
+    background-color: #37475A;
+    font-size: 13px;
+    font-weight: 500;
+    src: url("#");
+}
+
+.back-to-top-inside-button:hover{
+    background-color: #485769;
+    cursor: pointer;
+}
+
+/* Links Div .......................... */
+.all-links-div{
+    height: 330px;
+    margin: 0px 260.2px;
+}
+
+.all-links-div-inside{
+    height: 330px;
+    display: flex;
+    justify-content: space-between;
+}
+.link-div-inline{
+    /* flex: 1.2; */
+    height: 330px;
+    padding: 0px 10px;
+}
+.block-heading-links{
+    height: 16.8px;
+    margin: 6px 0px 14px 0px;
+    font-weight: 700;
+    color: white;
+    font-size: 16px;
+}
+.block-list-items-links{
+    padding: 0px;
+}
+.link-form-items{
+    height: 16.8px;
+    margin-bottom: 14px;
+    list-style-type: none; 
+}
+.link-form-items-anchor-text{
+    text-decoration: none;
+    font-size: 0.89rem;
+    font-weight: 549;
+    color: #DDD;
+}
+.link-form-items-anchor-text:hover{
+    text-decoration: #DDD solid underline;
+}
+
+.block1-link-div{
+    width: 130.325px;
+}
+.block2-link-div{
+    width: 180.325px;
+}
+
+.block4-link-div{
+    width: 145.41px;
+    
+}
+.block4-items{
+    display: block;
+    height: auto;
+}
+
+/* Separator div ..................................... */
+.seprator-div-navfooter{
+    margin-top: 40px;
+    border-top: 0.8px solid #3a4553 ;
+}
+
+/* Amazon tag line ................................... */
+.amazon-tag-line-div-footer{
+    height: 68px;
+    margin: 10px 260.2px;
+    display: flex;
+    justify-content: center;
+}
+
+.amazon-tag-line-logo-span{
+    display: inline-block;
+    height: 68px;
+    width: 86px;
+    padding: 0px 6.6px;
+    background-image: url("amazon_logo.png");
+    background-size: contain;
+    background-position:centre;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 10px;
+}
+.amazon-tag-line-logo-image-div-inside{
+    margin: 30px 0px 11px 0px;
+    height: 27px;
+    width: 76px;
+    
+}
+.amazon-tag-line-3comp-span{
+    margin: 18px 0px 0px 70px;
+    padding: 0px 6.6px;
+    height: 34.6px;
+    display: flex;
+}
+.amazon-tag-line-3comp-div-inside{
+    display: flex;
+}
+
+.component{
+    padding: 6px 18px 6px 8px;
+    border: 1px solid #848688;
+    margin-right: 4px;
+    height: 20.2px;
+    border-radius: 4px;
+}
+
+.component-link{
+    padding: 0px 7.8px;
+    height: 20.2px;
+    color: #CCC;
+    font-size: 0.78rem;
+    font-weight: 530;
+}
+.component1-dropdown-btn{
+    height: 28px;
+    width: 10px;
+    padding: 1px 6px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: transparent;
+    border: none;
+    position: relative;
+    left: 95px;
+    bottom:17px
+}
+.down-icon{
+    position: relative;
+    bottom: 10px;
+}
+.cmp-text{
+    padding: 0px 4px;
+}
+
+.cmp1{
+    width: 104.37px;
+}
+.cmp2{
+    width: 147.01px;
+}
+.cmp3-anchor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.flag-img-cmp3{
+    height: 21.6px;
+}
+
+/* Second last line of footer.......................... */
+.nav-footer-2ndlast-texts-div{
+    margin-top: 30px;
+    padding: 30px 0px;
+    background-color: #131A22;
+}
+.nav-footer-2ndlast-texts-div-inside{
+    margin: 0px 280.2px;
+}
+
+.rowss{
+    padding: 0px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.item-of-row-last-footer{
+    list-style-type: none;
+    flex: 1;
+
+}
+.gap-item-of-row{
+    width: 33.75px;
+    list-style-type: none;
+}
+.heading-of-item{
+    color: #DDD;
+    font-weight: 500;
+    font-size: 0.75rem;
+}
+.text-of-item{
+    color: #999;
+    font-size: 0.73rem;
+    font-weight: 450;
+    display: inline-block;
+    line-height: 15px;
+}
+.anchor-item-last-footer:hover .heading-of-item{
+    text-decoration: #DDD solid underline;
+}
+.anchor-item-last-footer:hover .text-of-item{
+    text-decoration: #999 solid underline;
+}
+
+.row4{
+    margin: 0px;
+}
+
+/* last line of footer ........................... */
+.last-line-footer-div{
+    padding: 10px 0px 30px 0px;
+    height: 38px;
+    background-color: #131A22;
+}
+.last-line-footer-ul-list{
+    height: 20px;
+    padding: 0px;
+    margin-left: 18px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.items-of-list-left-line{
+    list-style-type: none;
+}
+.items-of-list-left-line-anchor-link{
+    padding: 0px 6.6px;
+    text-decoration: none;
+    color: #DDD;
+    font-weight: 450;
+    font-size: 0.68rem;
+}
+.items-of-list-left-line-anchor-link:hover {
+    text-decoration: #DDD underline;
+}
+
+.privacy-icon{
+    background-image: url("privacy-icon.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width:20px;
+    height: 20px;
+    position: relative;
+    top:6px
+}
+#end-message{
+    display: flex;
+    height: 18px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;   
 }
